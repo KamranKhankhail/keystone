@@ -48,7 +48,7 @@ export default class ValueProps extends Component {
 						</Col>
 						<Col>
 							<ValueProp
-								title="Powered by MongoDB"
+								title="Powered by BndB Technologies"
 								text="Keystone uses Mongoose, the leading ODM for node.js and MongoDB, and gives you a single place for your schema, validation rules and logic."
 								text2="So anything you can build with MongoDB, you can build with Keystone."
 								marginTop="1em"
