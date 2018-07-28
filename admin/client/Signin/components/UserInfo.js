@@ -18,7 +18,7 @@ const UserInfo = ({
 	return (
 		<div className="auth-box__col">
 			<p>Hi {userName},</p>
-			<p>You're already signed in.</p>
+	{userCanAccessKeystone ? <p>You're already signed in.</p> : <p>Your access is revoked by chaman admin. Kindly Contact Chaman admin</p>}
 			{adminButton}
 			<Button href={signoutPath} variant="link" color="cancel">
 				Sign Out
